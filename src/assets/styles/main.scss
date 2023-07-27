@@ -1,0 +1,33 @@
+@import './all.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'OpenSans';
+}
+
+body {
+  background-color: #EFEFF2;
+}
+
+.container {
+  max-width: 615px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.enterOrError{
+  margin-top: 10px;
+  text-align: center;
+}

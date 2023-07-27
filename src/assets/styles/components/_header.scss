@@ -1,0 +1,13 @@
+.header {
+  padding: 20px 30px;
+  background-color: #fff;
+
+  &-title{
+    color: #3F3F3F;
+    font-family: 'OpenSans';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+  }
+}

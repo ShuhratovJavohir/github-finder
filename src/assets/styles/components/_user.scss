@@ -1,0 +1,59 @@
+.user {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    width: 308px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFF;
+    padding: 13px 31px;
+    border-radius: 6px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    &-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 6px;
+
+    }
+
+    &-btn {
+      width: 100px;
+      height: 35px;
+      color: #fff;
+      border-radius: 6px;
+      background: #3F3F3F;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &-item {
+      color: #3F3F3F;
+      font-family: 'OpenSans';
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 120%;
+
+      & span {
+        font-weight: 400;
+      }
+    }
+  }
+}

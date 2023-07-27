@@ -1,0 +1,43 @@
+@import "../fonts.scss";
+
+.repos {
+	margin-top: 30px;
+  width: 585px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &-title {
+      color: #000;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 120%;
+    }
+
+    &-star,
+    &-date {
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 120%;
+    }
+  }
+
+  &-link {
+    border-radius: 6px;
+    background: #3f3f3f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 120%;
+		padding: 9px 15px;
+  }
+}
